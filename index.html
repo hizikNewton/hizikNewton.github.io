@@ -36,6 +36,7 @@
                 serviceWorker.addEventListener(
                     'statechange',
                     function(e) {
+                        console.log(`state change to${e}`)
                         printState(e.target.state);
                         });
                 }
